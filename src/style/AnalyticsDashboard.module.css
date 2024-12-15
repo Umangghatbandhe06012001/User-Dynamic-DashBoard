@@ -1,0 +1,108 @@
+.regionSelectorWrapper{
+    height: 30px;
+    padding: 1rem;
+    background-color: #b1b4b6;
+    border-radius: 10px;
+    position: sticky;
+    top:61px;
+    z-index: 10;
+}
+
+
+.cardStyle{
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 20px;
+    text-align: center;
+    width:20%;
+    /* height: 150px; */
+    /* box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); */
+    background: linear-gradient(to bottom, rgb(145, 198, 145), rgb(80, 227, 80));
+    box-shadow: 0 4px 6px rgb(120, 200, 120);
+
+}
+
+.cardTitle{
+    font-size: 1.3rem;
+    font-weight: 700;
+    margin-bottom:20px;
+}
+
+
+.cardValue{
+    font-size: 1.1rem;
+    font-weight: 600;
+    color: rgb(111, 106, 106);
+}
+
+
+.RegionSelector{
+    width: 13rem;
+    height: 35px;
+    font-weight: 600;
+    color: rgb(192, 182, 182);
+    padding: .5rem .9rem;
+    border-radius: 15px;
+    outline: none;
+    border: none;
+    font-size: 1rem;
+}
+
+
+.charTitle{
+    height: 30px;
+    padding: 1rem 1.5rem;
+    background-color: #61df67;
+    border-radius: 10px;
+    margin-bottom: 1rem;
+    
+
+}
+
+
+.RegionSelectorTag{
+    font-size:1.1rem;
+    font-weight:700;
+    color:#ffff;
+}
+
+@media (max-width: 768px) {
+   
+    .cardTitle{
+        font-size: .8rem;
+        font-weight: 700;
+        margin-bottom:20px;
+    }
+    
+    
+    .cardValue{
+        font-size: .6rem;
+        font-weight: 600;
+        color: rgb(111, 106, 106);
+    }
+    .regionSelectorWrapper{
+        height: 30px;
+        padding: .9rem;
+        
+       
+        position: sticky;
+        top:50px;
+        
+    }
+
+    
+    .RegionSelector{
+        width: 9.5rem;
+        font-weight: 600;
+        color: rgb(192, 182, 182);
+        font-size: .8rem;
+    }
+
+    .RegionSelectorTag{
+        font-size: 1rem;
+    }
+
+    .charTitle{
+        font-size: 1rem;
+    }
+  }
