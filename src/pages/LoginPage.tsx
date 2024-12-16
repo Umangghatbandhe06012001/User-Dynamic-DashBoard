@@ -4,9 +4,9 @@ import { validateLogin } from '../redux/slices/userSlice';
 import { useNavigate } from 'react-router-dom';
 import { toast, ToastContainer } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
-import { RootState } from '../redux/store';
+
 import LoginStyle from '../style/LoginPage.module.css';
-import {  useSelector } from 'react-redux';
+
 
 import { login} from '../redux/slices/authenticationslice';
 
@@ -16,7 +16,7 @@ const LoginPage: React.FC = () => {
   const [error, setError] = useState('');
   const dispatch = useAppDispatch();
   const navigate = useNavigate();
-  const isLoggedIn = useSelector((state: RootState) => state.authentication.isLoggedIn);
+  
 
 
 

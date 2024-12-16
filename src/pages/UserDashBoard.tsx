@@ -26,7 +26,7 @@ export const UserDashboard: React.FC = () => {
   
   const dispatch: AppDispatch = useDispatch();
   const { users, loading, error } = useSelector((state: RootState) => state.users);
-  const [UserDetailShow,setUserDetailShow] = useState(false);
+  
 
 
   const [selectedUser, setSelectedUser] = useState(null);
