@@ -54,7 +54,7 @@ export const UserDashboard: React.FC = () => {
       dispatch(fetchUsers());
     }
     
-  }, [dispatch]);
+  }, [dispatch,isLoggedIn]);
 
   const filteredUsers = users.filter((user) => {
     const matchesSearch =
